@@ -72,6 +72,9 @@ h1 {
     width: 100%;
     display: grid;
     grid-template-columns: 75% auto 6em;
+    opacity: 0;
+    transform: translateX(10%) scale(.9);
+    pointer-events: none;
 }
 
 .left,
